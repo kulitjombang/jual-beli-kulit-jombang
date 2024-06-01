@@ -1,0 +1,82 @@
+:root{
+  --abu-color: black; 
+  --wahit-color: white;
+}
+.isiblog{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 25px;
+}
+.judul{
+    text-align: center;
+    font-family: 'Trajan Pro', sans-serif;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+.slideshow{
+    display:block; 
+    margin:auto;
+    width: 670px; 
+    height: auto;
+}
+.jenis{
+    font-family: 'Trajan Pro', sans-serif;
+}
+.imgjenis{
+    display:block; 
+    margin:auto;
+    width: 670px;
+    height: auto;
+}
+.weborang{
+    text-align: center;
+    padding-bottom: 30px;
+}
+/*BUTTON*/
+.col-container {
+  width: 100%; /* Set full-width to expand the whole page */
+  background-color: #A9A9A9;
+  height: 550px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+@media (max-width : 800px){
+  .imgjenis{
+    width: 500px;   
+}
+}
+@media (max-width: 700px){
+  .slideshow{
+    width: 500px;
+  }
+  .isiblog{
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .imgjenis{
+    width: 450px;
+    
+}
+  .weborang{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+}
+@media (max-width: 540px){
+  .slideshow{
+    width: 400px;
+  }
+  .isiblog{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .imgjenis{
+    width: 400px;
+}
+  .weborang{
+      text-align: center;
+      padding-bottom: 30px;
+  }
+}
